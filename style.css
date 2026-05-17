@@ -28,9 +28,40 @@ header h1 {
     margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+        height: auto;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .dropdown-btn {
+        font-size: 12px !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    .center {
+        position: static !important;
+        transform: none !important;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
 nav {
+    position: relative;
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -77,10 +108,9 @@ nav a:hover {
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 16px;
-    margin: 14px 30px;
-    padding: 0px 16px;
-    padding-top: 0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .dropdown-btn:hover {
@@ -183,6 +213,13 @@ footer {
     color: #555;
     max-width: 800px;
     text-align: center;
+}
+
+#lenda img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
 }
 
 #regras {
