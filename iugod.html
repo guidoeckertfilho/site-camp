@@ -5,30 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iugod</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/favicon-5lugar.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/favicon-principal.png" type="image/x-icon">
 </head>
 <body>
         <header> 
         <h1>Iugod</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="lasca.html">La Pulga</a></li>
-                <li><a href="peido.html">EduZ</a></li>
-                <li><a href="ceara.html">El Ceara</a></li>
-                <li><a href="cabeça.html">El Bicho</a></li>
-            </ul>
+            <div class="left">
+                <button class="dropdown-btn">Jogadores</button>
+                <ul>
+                    <li><a href="index.html">Menu</a></li>
+                </ul>
+                <ul class="dropdowncontent" id="menu">
+                    <li><a href="lasca.html">La Pulga</a></li>
+                    <li><a href="peido.html">EduZ</a></li>
+                    <li><a href="cabeça.html">El Bicho</a></li>
+                    <li><a href="ceara.html">El Ceara</a></li>
+                </ul>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="campeonatos.html">Campeonatos</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="lenda.html">Lenda</a></li>
+                    <li><a href="regras.html">Regras</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="titulos">
         <ul>
-            <li><img src="imagens/medalha-5lugar.jpeg" alt="5 lugar"></li>
-            <li><img src="imagens/medalha-5lugar.jpeg" alt="5 lugar"></li>
-            <li><img src="imagens/medalha-3lugar.jpeg" alt="3 lugar"></li>
+
         </ul>
     </div>
     <footer>
         <p>&copy; 2026 Hall da Fama. Todos os direitos reservados. Rei Galactico.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
